@@ -12,10 +12,10 @@ public class App
     public static void main( String[] args )
     {
         Scanner input = new Scanner(System.in);
-        System.out.println("What is the quote? ");
+        System.out.print("What is the quote? ");
         String quote = input.nextLine();
 
-        System.out.println("Who is the author? ");
+        System.out.print("Who is the author? ");
         String author = input.nextLine();
 
         String quotation = author + " says," + "\""+ quote + "\"";
